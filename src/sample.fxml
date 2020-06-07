@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane fx:id="centrumL" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ECD2BA;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainController">
+   <center>
+      <Text fill="#ae2b2b" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="Grafik v 1.0" wrappingWidth="202.3046875" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="40.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets left="30.0" />
+         </BorderPane.margin>
+      </Text>
+   </center>
+   <bottom>
+      <Button fx:id="enterButton" mnemonicParsing="false" onAction="#add2" style="-fx-background-color: #2dfde2;" text="Sprawdz Aktualny Grafik" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="100.0" />
+         </BorderPane.margin>
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </bottom>
+   <right>
+      <Button fx:id="centrumL" mnemonicParsing="false" onAction="#centrumL" style="-fx-background-color: #D0C7C7;" text="Harmonogram Lekarza" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets right="20.0" />
+         </BorderPane.margin>
+      </Button>
+   </right>
+   <left>
+      <Button fx:id="centrumP" mnemonicParsing="false" onAction="#centrumP" style="-fx-background-color: #097179;" text="Centum Pacjenta" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets left="20.0" />
+         </BorderPane.margin>
+      </Button>
+   </left>
+   <top>
+      <Button fx:id="cena" mnemonicParsing="false" onAction="#cena" style="-fx-background-color: #fcfd2d;" text="Centrum Administratora" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets left="5.0" top="20.0" />
+         </BorderPane.margin>
+      </Button>
+   </top>
+</BorderPane>

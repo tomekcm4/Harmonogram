@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllerdodajpacjenta">
+   <children>
+      <Text layoutX="23.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Imie" />
+      <Text layoutX="23.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nazwisko" />
+      <Text layoutX="23.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID Pacjenta" wrappingWidth="78.35546875" />
+      <TextField fx:id="ip" layoutX="133.0" layoutY="53.0" />
+      <TextField fx:id="np" layoutX="133.0" layoutY="103.0" />
+      <TextField fx:id="idp" layoutX="133.0" layoutY="157.0" />
+      <Button fx:id="dodajB" layoutX="14.0" layoutY="258.0" mnemonicParsing="false" onAction="#dodajP" prefHeight="7.0" prefWidth="268.0" text="dodaj" />
+   </children>
+</AnchorPane>

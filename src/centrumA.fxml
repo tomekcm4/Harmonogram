@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerAdministratora">
+   <children>
+      <MenuButton layoutX="-162.0" layoutY="-173.0" mnemonicParsing="false" text="MenuButton">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </MenuButton>
+      <Text layoutX="237.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DODAJ:" wrappingWidth="98.99999821186066">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <RadioButton fx:id="Dpac" layoutX="47.0" layoutY="95.0" mnemonicParsing="false" onAction="#dodajPacjenta" text="Pacjenta">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="Dlek" layoutX="229.0" layoutY="95.0" mnemonicParsing="false" onAction="#dodajLekarza" text="Lekarza">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="Dwiz" layoutX="387.0" layoutY="95.0" mnemonicParsing="false" onAction="#dodajWizyte" text="Termin Wizyty">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </RadioButton>
+      <Text layoutX="237.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="USUN:" wrappingWidth="98.99999821186066">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <RadioButton fx:id="Upac" layoutX="47.0" layoutY="271.0" mnemonicParsing="false" onAction="#usunPacjenta" text="Pacjenta">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="Ulek" layoutX="229.0" layoutY="271.0" mnemonicParsing="false" onAction="#usunLekarza" text="Lekarza">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="Uwiz" layoutX="387.0" layoutY="271.0" mnemonicParsing="false" onAction="#usunWizyte" text="Termin Wizyty">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </RadioButton>
+   </children>
+</AnchorPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerLekarz">
+   <children>
+      <ListView fx:id="list" layoutX="17.0" layoutY="89.0" prefHeight="291.0" prefWidth="566.0" />
+      <Text layoutX="17.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Podaj swoje ID aby sprawdzic grafik:" wrappingWidth="242.13671875">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="idl" layoutX="259.0" layoutY="53.0" onKeyPressed="#e" onKeyReleased="#lll" prefHeight="25.0" prefWidth="47.0" promptText="ID" />
+      <Text layoutX="17.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dzis jest" wrappingWidth="93.13671875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextField fx:id="d" layoutX="91.0" layoutY="19.0" />
+   </children>
+</AnchorPane>
